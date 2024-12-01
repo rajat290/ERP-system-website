@@ -1,0 +1,462 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   School ERP System
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            position: sticky;
+            top: 0;
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+        header nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        header .search-login {
+            display: flex;
+            align-items: center;
+        }
+        header .search-login input {
+            padding: 5px;
+            margin-right: 10px;
+        }
+        header .search-login button {
+            padding: 5px 10px;
+            background: #007BFF;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+        .hero {
+            background: url('https://placehold.co/1920x600') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .hero .cta {
+            padding: 10px 20px;
+            background: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .clients, .why-choose-us, .products, .services, .pricing, .testimonials, .contact, footer {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .clients img, .testimonials img {
+            max-width: 100px;
+            margin: 10px;
+        }
+        .why-choose-us .benefit {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            text-align: left;
+        }
+        .why-choose-us .benefit i {
+            font-size: 2em;
+            color: #007BFF;
+        }
+        .products .product, .services .service {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            text-align: left;
+        }
+        .products .product img, .services .service img {
+            max-width: 100%;
+        }
+        .pricing table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .pricing th, .pricing td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        .pricing th {
+            background: #f4f4f4;
+        }
+        .testimonials .testimonial {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            text-align: left;
+        }
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .contact form button {
+            padding: 10px 20px;
+            background: #007BFF;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .persistent-buttons {
+            position: fixed;
+            bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0 20px;
+        }
+        .persistent-buttons .support, .persistent-buttons .whatsapp {
+            background: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <div class="logo">
+    School ERP
+   </div>
+   <nav>
+    <a href="#home">
+     Home
+    </a>
+    <a href="#features">
+     Features
+    </a>
+    <a href="#pricing">
+     Pricing
+    </a>
+    <a href="#testimonials">
+     Testimonials
+    </a>
+    <a href="#contact">
+     Contact
+    </a>
+   </nav>
+   <div class="search-login">
+    <input placeholder="Search..." type="text"/>
+    <button>
+     Login
+    </button>
+   </div>
+  </header>
+  <section class="hero" id="home">
+   <h1>
+    Welcome to School ERP System
+   </h1>
+   <p>
+    Manage your school efficiently with our comprehensive ERP system.
+   </p>
+   <a class="cta" href="#contact">
+    Book a Demo
+   </a>
+  </section>
+  <section class="clients">
+   <h2>
+    Our Happy Clients
+   </h2>
+   <img alt="Logo of School A" height="100" src="https://storage.googleapis.com/a1aa/image/6Rhr1r8Aby7iIRjm7RpYi2JrDz6OjYGTGl3oiEIKH8mdfQ7JA.jpg" width="100"/>
+   <img alt="Logo of School B" height="100" src="https://storage.googleapis.com/a1aa/image/w36BjBy3mkp0J1xbA6kNVaKPh1Ot3ntPPA7ZzDt7DHpcfQ7JA.jpg" width="100"/>
+   <img alt="Logo of School C" height="100" src="https://storage.googleapis.com/a1aa/image/TKJemrMnu7UiBiW3OIwPiuSnxjsQCryw7ARgd9I1g4Zf9h2TA.jpg" width="100"/>
+   <p>
+    Serving over 100 schools with a 95% satisfaction rate.
+   </p>
+  </section>
+  <section class="why-choose-us" id="features">
+   <h2>
+    Why Choose Us
+   </h2>
+   <div class="benefit">
+    <i class="fas fa-chart-line">
+    </i>
+    <h3>
+     Real-time Data
+    </h3>
+    <p>
+     Access real-time data to make informed decisions.
+    </p>
+   </div>
+   <div class="benefit">
+    <i class="fas fa-cogs">
+    </i>
+    <h3>
+     Customization
+    </h3>
+    <p>
+     Customize the system to fit your school's unique needs.
+    </p>
+   </div>
+   <div class="benefit">
+    <i class="fas fa-users">
+    </i>
+    <h3>
+     Centralized Management
+    </h3>
+    <p>
+     Manage all aspects of your school from a single platform.
+    </p>
+   </div>
+  </section>
+  <section class="products">
+   <h2>
+    Our Products
+   </h2>
+   <div class="product">
+    <img alt="Admin panel interface screenshot" height="200" src="https://storage.googleapis.com/a1aa/image/upjIT90JntJKI9foT3Qp4Z2OqrbhbfUzBjp7CQQCovO19h2TA.jpg" width="300"/>
+    <h3>
+     Admin Panel
+    </h3>
+    <p>
+     Manage school operations with ease using our admin panel.
+    </p>
+   </div>
+   <div class="product">
+    <img alt="Teacher panel interface screenshot" height="200" src="https://storage.googleapis.com/a1aa/image/5XFxS90JLoYwJJv66vbg4oJRbdXMee7gMc17jDhXS5079h2TA.jpg" width="300"/>
+    <h3>
+     Teacher Panel
+    </h3>
+    <p>
+     Empower teachers with tools to manage classes and students.
+    </p>
+   </div>
+   <div class="product">
+    <img alt="Student panel interface screenshot" height="200" src="https://storage.googleapis.com/a1aa/image/vJKZz13Cf4ztWq08BQAmnVglTNcr13xVIOMVz0Ie31v49h2TA.jpg" width="300"/>
+    <h3>
+     Student Panel
+    </h3>
+    <p>
+     Provide students with access to their academic information.
+    </p>
+   </div>
+  </section>
+  <section class="services">
+   <h2>
+    Our Services
+   </h2>
+   <div class="service">
+    <img alt="Deployment assistance illustration" height="200" src="https://storage.googleapis.com/a1aa/image/d74YI5jZCkr2NJiLqh7KMZ8NW44dyL5m1SiZ2CkHTzseeh2TA.jpg" width="300"/>
+    <h3>
+     Deployment Assistance
+    </h3>
+    <p>
+     Get help with deploying the ERP system in your school.
+    </p>
+   </div>
+   <div class="service">
+    <img alt="Training session illustration" height="200" src="https://storage.googleapis.com/a1aa/image/Cy2gFLyG25ZgDFbKPt8lwnUeBmYKmN7bkwdsk8gPFrf39h2TA.jpg" width="300"/>
+    <h3>
+     Training
+    </h3>
+    <p>
+     Receive comprehensive training for your staff.
+    </p>
+   </div>
+   <div class="service">
+    <img alt="Support team illustration" height="200" src="https://storage.googleapis.com/a1aa/image/4egWWVU9U1xHKiXNNY603dG42NoBQF6zuIi6pDNfiea77DtnA.jpg" width="300"/>
+    <h3>
+     Support
+    </h3>
+    <p>
+     Access 24/7 support for any issues or questions.
+    </p>
+   </div>
+  </section>
+  <section class="pricing" id="pricing">
+   <h2>
+    Pricing
+   </h2>
+   <div class="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-6">
+    <div class="border p-6 rounded-lg shadow-lg w-full md:w-1/3">
+     <h3 class="text-xl font-bold mb-4">
+      Basic
+     </h3>
+     <p class="mb-2">
+      Access to admin, teacher, and student panels
+     </p>
+     <p class="mb-2">
+      Basic reporting and analytics
+     </p>
+     <p class="mb-2">
+      Email support
+     </p>
+     <p class="text-2xl font-bold mt-4">
+      $100/month
+     </p>
+    </div>
+    <div class="border p-6 rounded-lg shadow-lg w-full md:w-1/3">
+     <h3 class="text-xl font-bold mb-4">
+      Standard
+     </h3>
+     <p class="mb-2">
+      All features of Basic
+     </p>
+     <p class="mb-2">
+      Customization options
+     </p>
+     <p class="mb-2">
+      Advanced reporting and analytics
+     </p>
+     <p class="mb-2">
+      Priority email support
+     </p>
+     <p class="text-2xl font-bold mt-4">
+      $200/month
+     </p>
+    </div>
+    <div class="border p-6 rounded-lg shadow-lg w-full md:w-1/3">
+     <h3 class="text-xl font-bold mb-4">
+      Premium
+     </h3>
+     <p class="mb-2">
+      All features of Standard
+     </p>
+     <p class="mb-2">
+      24/7 support
+     </p>
+     <p class="mb-2">
+      Dedicated account manager
+     </p>
+     <p class="mb-2">
+      Custom integrations
+     </p>
+     <p class="text-2xl font-bold mt-4">
+      $300/month
+     </p>
+    </div>
+   </div>
+   <a class="cta mt-6 inline-block bg-blue-500 text-white py-2 px-4 rounded" href="#contact">
+    Compare Plans
+   </a>
+  </section>
+  <section class="testimonials" id="testimonials">
+   <h2>
+    Testimonials
+   </h2>
+   <div class="testimonial">
+    <img alt="Photo of John Doe, Principal of School A" height="100" src="https://storage.googleapis.com/a1aa/image/MCA999BtXPYfIymV7UfjTgq5x0mJLUW9HKf7cb5Iof4F3HaPB.jpg" width="100"/>
+    <p>
+     "The School ERP system has transformed the way we manage our school. Highly recommend!"
+    </p>
+    <p>
+     - John Doe, Principal of School A
+    </p>
+   </div>
+   <div class="testimonial">
+    <img alt="Photo of Jane Smith, Teacher at School B" height="100" src="https://storage.googleapis.com/a1aa/image/QWfI0gcDf4geZI7DqjmZ4a2emfpBXvyp9916goR4gGYguP0eE.jpg" width="100"/>
+    <p>
+     "The teacher panel is incredibly user-friendly and has made my job so much easier."
+    </p>
+    <p>
+     - Jane Smith, Teacher at School B
+    </p>
+   </div>
+   <div class="testimonial">
+    <img alt="Photo of Mark Johnson, Student at School C" height="100" src="https://storage.googleapis.com/a1aa/image/FL6NeLSW6TzCTKVMoYVTp8exdO5EK5c0O6i0fD0EQKof2HaPB.jpg" width="100"/>
+    <p>
+     "I love being able to access all my academic information in one place."
+    </p>
+    <p>
+     - Mark Johnson, Student at School C
+    </p>
+   </div>
+  </section>
+  <section class="contact" id="contact">
+   <h2>
+    Contact Us
+   </h2>
+   <form>
+    <input placeholder="Name" required="" type="text"/>
+    <input placeholder="Email" required="" type="email"/>
+    <input placeholder="Phone" required="" type="tel"/>
+    <textarea placeholder="Your Query" required=""></textarea>
+    <button type="submit">
+     Submit
+    </button>
+   </form>
+   <p>
+    Our Office: 123 School St, Education City, ED 12345
+   </p>
+   <iframe allowfullscreen="" height="450" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d144.9537353153167!3d-37.81627917975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d1b1f1b1f1b1!2s123%20School%20St%2C%20Education%20City%2C%20ED%2012345!5e0!3m2!1sen!2sus!4v1616161616161!5m2!1sen!2sus" style="border:0;" width="600">
+   </iframe>
+  </section>
+  <footer>
+   <p>
+    © 2023 School ERP System. All rights reserved.
+   </p>
+   <a href="#">
+    Terms of Service
+   </a>
+   <a href="#">
+    Privacy Policy
+   </a>
+   <div>
+    <a href="#">
+     <i class="fab fa-facebook-f">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-twitter">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-linkedin-in">
+     </i>
+    </a>
+   </div>
+  </footer>
+  <div class="persistent-buttons">
+   <a class="support" href="#">
+    Support
+   </a>
+   <a class="whatsapp" href="#">
+    <i class="fab fa-whatsapp">
+    </i>
+    Chat
+   </a>
+  </div>
+ </body>
+</html>
